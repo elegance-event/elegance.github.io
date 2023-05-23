@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Elegance Auditorium</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css" integrity="sha512-yDUXOUWwbHH4ggxueDnC5vJv4tmfySpVdIcN1LksGZi8W8EVZv4uKGrQc0pVf66zS7LDhFJM7Zdeow1sw1/8Jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff2">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff">
+  
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
+  
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <style>
+      .navbar {
+      background-color: transparent;
+      transition: background-color 0.3s;
+    }
+
+    .navbar.opaque {
+      background-color: #e4e2e2;
+    }
+    .navbar.opaque #menu-toggle span.line {
+    
+    background-color: #000000;
+    
+  }
+  .navbar.opaque .phone-icon{
+      color: #000000;
+    }
+    .navbar.opaque .call{
+      border: 1.5px solid rgb(18, 18, 18);
+    }
+
+    .navbar .logo {
+      color: #781a1a;
+      font-size: 24px;
+      font-weight: bold;
+      
+    }
+
+    /* Custom CSS for Sticky Navbar */
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999;
+    }
+    /*
+    ul.navbarul {
+    margin: 0;
+    text-transform: uppercase;
+    float: left;
+    
+    
+    }
+    ul li{
+      text-align: center;
+      display: inline-block;
+      list-style: none;
+      padding: 15px 15px;
+      
+      cursor: pointer;
+      line-height: 30px;
+      &:hover a{
+        font-weight: bold;
+      }
+    }
+     ul li a{
+        color: #000000;
+        text-decoration: none;
+      } */
+      .logo-br{
+        height: 35px;
+        
+      }
+      .call{
+        
+        display: inline;
+        padding-right: 5px;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif;
+        
+      }
+      .fa.fa-phone{
+        padding: 5px 5px 5px 5px;
+        
+      }
+      .header_call .call {
+    border: 1.5px solid rgb(255, 255, 255); /* Adjust the border style as desired */
+    padding: 5px; /* Adjust the padding as needed */
+}
+   
+
+    
+ 
+
+    
+    </style>
+    
+    </head>
+    <body>
+      
+      <header class="hero">
+        <div id="navbar">
+        <nav class="navbar">
+          <div id="menu-toggle">
+            <div class="hamburger">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+            <div class="cross">
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand logo" href="#"><img class="logo-br" src="assets/logo-br.png"></a>
+              <div class="header_call align-to-right">
+                <h4><a href="#" class="phone-icon"><div class="call"><i class="fa fa-phone"> Call</div></i> +91 70255 66882</a></h4>
+            </div>
+              <ul class="main-nav">
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#about">Amenities</a>
+                </li>
+                <li>
+                  <a href="#about">Gallery</a>
+                </li>
+                <li>
+                  <a href="#services">About</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-6 col-xs-12">
+              
+
+              <!--<nav>
+                <div id="menu-toggle">
+                  <div class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                  </div>
+                  <div class="cross">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                  </div>
+                </div>
+                <ul class="main-nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>-->
+              <!-- <a href="#" class="menu"><img src="assets/menu.png"></a> -->
+              <div class="hero-text">
+                <h1><span>Welcome to</span><br>Elegance Event Center</h1>
+                <h3>Let's celebrate your Occasion !</h3>
+                <a href="#" class="btn btn-lg btn-primary">Book Now !</a>
+                <ul class="social-links">
+                  <li class="label">Follow for more   |</li>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="case-study">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+               <!--<h4 class="sub-heading">Exclusively</h4>
+              <h1 class="heading purple"><span class="purple">works</span> with </h1>-->
+              <!-- Swiper -->
+              <div class="swiper-container client-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide client-box">
+                    <img src="assets/1-removebg-preview.png" class="client-logo">
+                    <h3 class="text-left title">Wedding</h3>
+                    
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="assets/2-removebg-preview.png" class="client-logo">
+                    <h3 class="text-left title">Birthday Parties</h3>
+                    
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="assets/3-removebg-preview.png" class="client-logo">
+                    <h3 class="text-left title">Anniverseries</h3>
+                    
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="assets/4-removebg-preview.png" class="client-logo">
+                    <h3 class="text-left title">Parties</h3>
+                    
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="assets/5-removebg-preview.png" class="client-logo">
+                    <h3 class="text-left title">Luncheons</h3>
+                    
+                  </div>
+                </div>
+                
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!--about section start -->
+      <div class="about_section layout_padding">
+        <div class="container-fluid">
+           <div class="row">
+              <div class="col-lg-6 padding_0">
+                 <div class="abiut_images_main">
+                    <div><img src="assets/img-1.png" class="image_1"></div>
+                    <div><img src="assets/img-2.png" class="image_2"></div>
+                    <div class="main"><img src="assets/img-3.png" class="image_3"></div>
+                 </div>
+              </div>
+              <div class="col-lg-6 padding_0">
+                 <div class="about_taital_main">
+                    <h1 class="about_taital">About</h1>
+                    <p class="about_text">Welcome to Elegance Event Center, the perfect destination for unforgettable moments and extraordinary occasions. With a commitment to elegance and impeccable service, we take pride in being the premier event center for all your special celebrations.Discover the epitome of elegance and sophistication at Elegance Event Center. Let us be the backdrop for your cherished memories, where every occasion is transformed into an unforgettable celebration. Contact us today to start planning your next extraordinary event.</p>
+                    <div class="read_bt"><a href="#">Read More</a></div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <!--about section end -->
+     <!-- marriage section start -->
+     <div class="marriage_section layout_padding">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-6 padding_left_0">
+               <div class="marriage_img"><img src="assets/marriage-img.png"></div>
+            </div>
+            <div class="col-lg-6">
+               <div class="marriage_taital_main">
+                  <h3 class="marriage_taital">Facelity of our marriage house</h3>
+                  <p class="marriage_text"></p>
+                  <div class="marriage_section_2">
+                     <div class="marriage_taital_left">
+                        <div class="car_box">
+                           <img src="assets/car-img.png" class="car_image">
+                        </div>
+                     </div>
+                     <div class="marriage_taital_right">
+                        <h6 class="parking_text">Car Parking</h6>
+                        <p class="long_text">Car parking provides a convenient and secure space for vehicles. With well-organized layouts, efficient systems, and ample spaces,</p>
+                     </div>
+                  </div>
+                  <div class="marriage_section_2">
+                     <div class="marriage_taital_left">
+                        <div class="car_box">
+                           <img src="assets/balls-img.png" class="car_image">
+                        </div>
+                     </div>
+                     <div class="marriage_taital_right">
+                        <h6 class="parking_text">AC / Non-AC</h6>
+                        <p class="long_text">AC provides cool and comfortable indoor environments, while non-AC spaces offer a natural and refreshing atmosphere.</p>
+                     </div>
+                  </div>
+                  <div class="marriage_section_2">
+                     <div class="marriage_taital_left">
+                        <div class="car_box">
+                           <img src="assets/water-bottle-img.png" class="car_image">
+                        </div>
+                     </div>
+                     <div class="marriage_taital_right">
+                        <h6 class="parking_text">Dining Room</h6>
+                        <p class="long_text">The dining room is a welcoming space where friends and family gather, enjoying delicious meals</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- marriage section end -->
+
+   <!-- Projects -->
+
+   <!--<section class="projects section">
+    <div class="container">
+      <h2 class="section-title">Our <span class="text-primary">projects</span></h2>
+    </div>
+    <div class="section-content">
+      <div class="projects-carousel js-projects-carousel js-projects-gallery">
+        <div class="project project-light">
+          <a href="assets/img/1.png" title="project 1">
+            <figure>
+              <img alt="" src="assets/img/1.png">
+              <figcaption>
+                <h3 class="project-title">
+                  Construction
+                </h3>
+                <h4 class="project-category">
+                  Project
+                </h4>
+                <div class="project-zoom"></div>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="project project-light">
+          <a href="assets/img/2.png" title="project 2">
+            <figure>
+              <img alt="" src="assets/img/2.png">
+              <figcaption>
+                <h3 class="project-title">
+                  Residential
+                </h3>
+                <h4 class="project-category">
+                  Project
+                </h4>
+                <div class="project-zoom"></div>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="project">
+          <a href="assets/img/3.png" title="project 3">
+            <figure>
+              <img alt="" src="assets/img/3.png">
+              <figcaption>
+                <h3 class="project-title">
+                  Interior Design
+                </h3>
+                <h4 class="project-category">
+                  Project
+                </h4>
+                <div class="project-zoom"></div>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="project">
+          <a href="assets/img/4.png" title="project 4">
+            <figure>
+              <img alt="" src="assets/img/4.png">
+              <figcaption>
+                <h3 class="project-title">
+                  Dining Hall - Interior
+                </h3>
+                <h4 class="project-category">
+                  Project
+                </h4>
+                <div class="project-zoom"></div>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="project">
+          <a href="assets/img/5.png" title="project 5">
+            <figure>
+              <img alt="" src="assets/img/5.png">
+              <figcaption>
+                <h3 class="project-title">
+                  NJM Auditorium
+                </h3>
+                <h4 class="project-category">
+                  Project
+                </h4>
+                <div class="project-zoom"></div>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>-->
+
+
+<!-- gallery-->
+
+
+      <!-- testimonial-->
+
+      <section class="testimonial">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 class="sub-heading"></h4>
+              <br>
+              <h1 class="heading pink"><span class="pink">Our</span> Gallery</h1>
+            </div>
+          </div>  
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <!-- Swiper -->
+              <div class="swiper-container testimonial-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide testimonial-box yellow">
+                    <img src="assets/img/pro-1.JPG">
+                    <h1>Minimal and Clean</h1>
+                  </div>
+                  <div class="swiper-slide testimonial-box purple">
+                    <img src="assets/img/pro-2.JPG">
+                    <h1>Minimal and Clean</h1>
+                  </div>
+                  <div class="swiper-slide testimonial-box blue">
+                    <img src="assets/img/pro-3.JPG">
+                    <h1>Minimal and Clean</h1>
+                  </div>
+                  <div class="swiper-slide testimonial-box pink">
+                    <img src="assets/img/pro-4.JPG">
+                    <h1>Minimal and Clean</h1>
+                  </div>
+                  <div class="swiper-slide testimonial-box yellow">
+                    <img src="assets/img/pro-5.JPG">
+                    <h1>Minimal and Clean</h1>
+                  </div>
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Statistics -->
+      <section class="stats">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-center stat-box">
+              <h1 class="purple"><span class="counter">43</h1>
+              <h3>Birthdays</h3>
+            </div>
+            <div class="col-md-4 text-center stat-box">
+              <h1 class="blue counter">217</h1>
+              <h3>Weddings</h3>
+            </div>
+            <div class="col-md-4 text-center stat-box">
+              <h1 class="pink"><span class="counter">83</h1>
+              <h3>Social Functions</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Banner -->
+      <section class="contact-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1>Plan Your Event</h1>
+              <a href="#" class="btn btn-lg btn-primary">Book now !</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <!--<footer>
+        <div class="container-fluid">
+          <div class="row footer">
+            <div class="col-md-12 text-center">
+              <h1>Maria<br><span>Ferrero</span></h1>
+              <ul class="social-links">
+                <li><a href="#"><img src="assets/behance.png"></a></li>
+                <li><a href="#"><img src="assets/dribbble.png"></a></li>
+                <li><a href="#"><img src="assets/twitter.png"></a></li>
+                <li><a href="#"><img src="assets/github.png"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row sub-footer">
+            <div class="col-md-12 text-center">
+              <p>Designed by <a href="#" target="_blank">@realvjy</a> | Download <a href="http://designerdada.com/free-bootstrap-one-page-portfolio-template/">here</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>-->
+
+      <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 ">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Elegance Auditorium , Perinjanam, Kerala 680686 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>+91 70255 66882</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>contact@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-1">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                              <br>
+                                <a href="index.html"><img src="assets/logo-br.png" height="50px" width="auto" class="img-fluid" alt="logo"></a>
+                            </div><br>
+                            <div class="footer-text">
+                                <p> Welcome to Elegance Event Center, the perfect destination for unforgettable moments and extraordinary occasions. With a commitment to elegance and impeccable service, we take pride in being the premier event center for all your special celebrations.Discover the epitome of elegance and sophistication at Elegance Event Center. Let us be the backdrop for your cherished memories, </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                      
+                      <div class="footer-social-icon">
+                        <span>Follow us</span>
+                        <ul class="social_icon">
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          
+                      </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div>
+                      <center>
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023, All Right Reserved <a href="#">brocode_developers</a></p>
+                        </div></center>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Some Javascript -->
+
+      <script src="js/jquery-2.1.1.js"></script>
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<!-- SLIDER REVOLUTION -->
+<script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
+<script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS   -->
+<script src="js/rev-slider/revolution.extension.actions.min.js"></script>
+<script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
+<script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
+<script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>
+<script src="js/rev-slider/revolution.extension.migration.min.js"></script>
+<script src="js/rev-slider/revolution.extension.navigation.min.js"></script>
+<script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
+<script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
+<script src="js/rev-slider/revolution.extension.video.min.js"></script>
+<script src="js/interface.js"></script> 
+  <script>
+    $(document).ready(function() {
+      // Add opaque class to navbar on scroll
+      $(window).scroll(function() {
+        var scrollPosition = $(window).scrollTop();
+        if (scrollPosition > 0) {
+          $(".navbar").addClass("opaque");
+        } else {
+          $(".navbar").removeClass("opaque");
+        }
+      });
+    });
+
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  </script>
+  <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery-2.1.1.js"></script>
+      <script src="js/swiper.jquery.min.js"></script>
+      <!-- Initialize Client Swiper -->
+      <script>
+      var swiper1 = new Swiper('.client-swiper', {
+        slidesPerView: 3,
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 60,
+        // Responsive breakpoints
+        breakpoints: {
+          // when window width is <= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: '.swiper-pagination'
+          },
+          // when window width is <= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 20
+          },
+          // when window width is <= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 30
+          }
+        }
+      });
+      // Initialize Testimonial Swiper
+      var swiper2 = new Swiper('.testimonial-swiper', {
+        slidesPerView: 3,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        freeMode: true,
+        breakpoints: {
+          // when window width is <= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window width is <= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          },
+          // when window width is <= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          }
+        }
+      });
+      </script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+      <script src="js/jquery.counterup.min.js"></script>
+      <script>
+      // Counterup
+      $('.counter').counterUp({
+        time: 1000
+      });
+
+      // Main Navigation
+      $('#menu-toggle').click(function(){
+        $(this).toggleClass('open'),
+        $('.main-nav').toggleClass('show-it');
+      })
+      </script>
+
+     >
+    </body>
+    
+    </html>
