@@ -21,6 +21,21 @@
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
+  <script src="js/jquery.counterup.min.js"></script>
+      <script>
+      // Counterup
+      $('.counter').counterUp({
+        time: 1000
+      });
+  </script>
+  <script>
+
+      // Main Navigation
+      $('#menu-toggle').click(function(){
+        $(this).toggleClass('open'),
+        $('.main-nav').toggleClass('show-it');
+      })
+      </script>
   
 
 
@@ -740,21 +755,9 @@ function myFunction() {
       });
       </script>
       <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-      <script src="js/jquery.counterup.min.js"></script>
-      <script>
-      // Counterup
-      $('.counter').counterUp({
-        time: 1000
-      });
+      
 
-      // Main Navigation
-      $('#menu-toggle').click(function(){
-        $(this).toggleClass('open'),
-        $('.main-nav').toggleClass('show-it');
-      })
-      </script>
-
-     >
+     
     </body>
     
     </html>
