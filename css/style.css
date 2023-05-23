@@ -1047,7 +1047,10 @@ ul.main-nav.show-it {
     visibility: hidden;
   }
 
-  
+  .marriage_taital_right {
+    width: 60%;
+    float: right;
+  }
 
 
   ul.main-nav {
