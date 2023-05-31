@@ -1046,12 +1046,31 @@ ul.main-nav.show-it {
   .header_call {
     visibility: hidden;
   }
-
   .marriage_taital_right {
     width: 60%;
     float: right;
   }
-
+  
+    .abiut_images_main {
+      
+    
+    size: 50%;
+    }
+     .abiut_images_main .image_1{
+      display: none;
+    }
+    .abiut_images_main .image_3{
+      display: none;
+    }
+    .abiut_images_main .image_2{
+      opacity: 0.5;
+      width: fit-content;
+      height: auto;
+      left: 0;
+      top: 0;
+    }
+   
+  
 
   ul.main-nav {
     padding-right: 20px;
